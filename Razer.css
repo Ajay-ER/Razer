@@ -1,0 +1,490 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    background-color:  #1b1b1b;
+    overflow-x: hidden;
+
+}
+
+.base-div{
+    background-color: rgb(67, 67, 67);
+}
+
+
+.Topbar{
+    width: 100%;
+    background: rgb(0, 0, 0);
+    height: 60px;  
+    border-bottom: 1px solid #44d62c;
+    position: fixed;
+}
+.Navigation{
+    width: auto;
+    background: rgb(0, 0, 0) ;
+    height: 35px;
+    float: left;    
+}
+.icons i{
+    color: rgb(99, 99, 99);
+    margin-top: 25px;
+    margin-left: 65px;
+
+}
+
+
+.icons i:hover
+{
+    color: #eee;
+}
+
+.razer-logo{
+    width: 35px;
+    margin-top: 15px;
+    margin-left: 123px;
+    float: left;
+}
+
+.PC{
+    font-family:RazerF5, Arial;
+    cursor: pointer;
+    font-size: 15px;
+    color: rgb(128, 128, 128);
+    margin-top: 5px;
+    display: inline-block;
+    margin-left: 65px;
+    list-style: none;
+}
+
+.PC:hover{
+    color: aliceblue;
+}
+
+.second-top{
+    width: 100%;
+    height: 30px;
+    background-color: #555;
+    padding-top: 75px;
+}
+.second-top p{
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 10px;
+    color: #eee;
+    font-family:  Roboto,sans-serif;
+    font-size: 14px;
+}
+
+.div-1{
+    background-image: url(images/cyber-weekend-homepage-desktop2x.jpg);
+    cursor: pointer;
+    width: 100%;
+    height: 700px;
+    line-height: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.div-2{
+    background-image: url(images/razer-blade14-mercury-2022-homepage-desktop2x.jpg);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover ;
+    margin-top: 5px;
+    line-height: 10px;
+
+}
+
+.div-3{
+   background-image: url(images/razer-naga-v2-pro-homepage-large-2x.jpg);
+   width: 100%;
+   height: 700px;
+   background-position: center;
+   background-size: cover ;
+   margin-top: 5px; 
+   line-height: 10px;
+
+}
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin-top: 5px;
+
+}
+
+.images img{
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+}
+
+
+.div-4{
+    background-image: url(./images/razer-wolverine-v2-pro-homepage-desktop2x.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 570px;
+}
+
+.div-4 h1{
+    color: white;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif   ;
+     font-size: 2rem;
+     text-align: center;
+     padding-top: 50px;
+     line-height: 10px;
+}
+
+.div-4 h3{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+ }
+ 
+ .div-4 h4{
+    display: inline;
+    margin-right: 30px;
+    color: #eee;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sub{ 
+        margin-left: 40%;
+}
+
+
+.div-5{
+    background-image: url(./images/razerstore-losangeles-b-950x580-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 570px;
+}
+
+
+.div-5 h1{
+    color: white;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif   ;
+     font-size: 2rem;
+     text-align: center;
+     padding-top: 50px;
+     line-height: 10px;
+}
+
+.div-5 h3{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+ }
+ 
+ .div-5 h4{
+    text-align: center;
+    color: #eee;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.div-6{
+    background-image: url(./images/razer-blade-15-b-950x580-desktop-oled.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 570px;
+}
+
+.div-6 h1{
+    color: white;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif   ;
+     font-size: 2rem;
+     text-align: center;
+     padding-top: 50px;
+     line-height: 10px;
+}
+
+.div-6 h3{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+ }
+ 
+ .div-6 h4{
+    display: inline;
+    margin-right: 30px;
+    text-align: center;
+    color: #eee;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.div-7{
+    background-image: url(./images/razer-edge-b-950x580-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 570px;
+}
+
+
+.div-7 h1{
+    color: white;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif   ;
+     font-size: 2rem;
+     text-align: center;
+     padding-top: 50px;
+     line-height: 10px;
+}
+
+.div-7 h3{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+ }
+ 
+ .div-7 h4{
+    display: inline;
+    margin-right: 30px;
+    text-align: center;
+    color: #eee;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sub1{
+    margin-left: 35%;
+}
+
+
+.div-8{
+    background-image: url(./images/razer-enki-pro-koenigsegg-williams-esports-950x580-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 570px;
+}
+.div-8 h1{
+    color: white;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif   ;
+     font-size: 2rem;
+     text-align: center;
+     line-height: 10px;
+}
+
+.div-8 h3{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+ }
+ 
+ .div-8 h4{
+    display: inline;
+    margin-right: 30px;
+    text-align: center;
+    color: #eee;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.razer {
+    background-color: #ff9c07;
+    max-width: fit-content;
+    text-transform:uppercase;
+    margin:30px  0 0 310px ;
+    padding: 0.2rem ;
+    line-height: 0px;
+    font-weight: bolder;
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+.one {
+    font-size: 10px;
+    font-weight: 700;
+}         
+
+
+.sub2{
+    margin-left: 27%;
+}
+.div-9{
+    background-image: url(./images/razer-enki-razerstore-reward-b-950x580-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 570px;
+    margin-bottom: 10px;
+}
+
+
+.div-9 h1{
+    color: white;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif   ;
+     font-size: 2rem;
+     text-align: center;
+     padding-top: 50px;
+     line-height: 10px;
+}
+
+.div-9 h3{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+ }
+ 
+ .div-9 h4{
+    text-align: center;
+    color: #eee;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+footer{
+    background-color:  #1b1b1b;
+    
+}
+
+.footer-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto  ;
+    grid-row: auto;
+    gap: 100px;
+    border-bottom:1px solid rgb(104, 104, 104);
+    text-align: left;
+    
+}
+.raw ul{
+    
+    list-style: none;
+    font-size: 11px;
+    color: #eee;
+    line-height: 25px;
+   
+}
+
+.raw a{
+    color: gray;
+}
+a{
+    text-decoration: none;
+}
+
+.raw a:hover{
+    color: #eee;
+    text-decoration: underline;
+}
+
+.follow{
+    font-family:  Arial;
+    font-size: 0.9rem;
+    letter-spacing: -.2px;
+    color: #44d62c;
+    margin-left: 167px;
+   
+}
+img{
+    margin-right: 10px;
+}
+
+.copyright ul{
+   
+    margin-left: 105px;
+    display: flex ;
+    list-style: none;
+    color: rgb(103, 103, 103);
+    width: 100%;
+    /* height: 0; */
+    font-size: 11px;
+
+}
+.copyright li{
+    margin-right: 25px;
+    border-bottom:1px solid #555;
+}
+
+.raw ul{
+    padding: 0;
+    padding-inline-start: 0;
+}
+
+.div-1 h1{
+     color: white;
+     font-family: "RazerF5",Arial,Helvetica,sans-serif   ;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 0;
+}
+
+.div-1 h3{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.div-1 h4{
+    color: #eee;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h4:hover
+{   
+    text-decoration: underline;
+}
+
+.div-2 h1{
+    color: white;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif   ;
+   font-size: 3rem;
+   text-align: center;
+   padding-top: 100px;
+   margin-top: 0;
+}
+
+.div-2 h3{
+   color: white;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+}
+
+
+.div-2 h4{
+   color: #eee;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+   display: inline;
+   margin-right: 30px;
+}
+
+.last-ch{
+    margin-left: 45%;
+}
+
+.div-3 h1{
+    color: white;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif   ;
+   font-size: 3rem;
+   text-align: center;
+   padding-top: 100px;
+   margin-top: 0;
+   
+}
+
+.div-3 h3{
+   color: white;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+}
+
+.div-3 h4{
+   color: #eee;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+   display: inline;
+   margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
